@@ -1,0 +1,41 @@
+.gradient {
+    background-color: #F5F5F5;
+
+    /* background: linear-gradient(
+        to bottom,
+        #F5F5F5 35%,
+        #EBE5D4 35%
+    ) no-repeat; */
+    background-size: cover;
+}
+
+.menuItemsFlexContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: auto;
+}
+
+.menuItemsFlexContainer > div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.gallery {
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: auto;
+}
+
+.gallery > div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}

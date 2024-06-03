@@ -1,0 +1,70 @@
+.card {
+    background-color: #F5F5F5;
+    overflow: hidden;
+    text-align: center;
+    /* margin: 10px; */
+    /* flex: 1 0 30%; */
+    flex-basis: 32.33%;
+    box-sizing: border-box;
+    /* width: 30.459999%; */
+    /* border-radius: 12px; */
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    /* width: 350px */
+  }
+/* 
+  .image:hover {
+    filter: brightness(70%) opacity(70%);
+  } */
+
+  .cart_icon {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    position: absolute;
+  }
+
+  .image:hover .cart_icon {
+    opacity: 1;
+  }
+
+  .success-icon {
+    display: none;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+  }
+
+  .image {
+    transition: filter 0.3s ease;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #EBE5D4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    min-height: 450px;
+    min-width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .details {
+    text-align: start;
+    
+    /* padding: 15px; */
+  }
+  
+  .name {
+    font-size: 1.5em;
+    margin: 10px 0 5px 0;
+    text-transform: capitalize;
+  }
+  
+  .price {
+    font-size: 1.3em;
+    color: #757575;
+  }
+  

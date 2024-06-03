@@ -1,0 +1,4 @@
+Host *
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile C:\Users\amato/.ssh/lina_id_rsa
